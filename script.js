@@ -43,4 +43,4 @@ document
     }
   });
 
-weather.fetchWeather("London");
+weather.fetchWeather("Patna");
