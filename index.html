@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
+
+     <!-- Font Awesome -->
+     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button type="button" name="button">
+          <i class="fas fa-search"></i>
+        </button>
+
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in London</h2>
+        <h1 class="temp">
+          25°C
+        </h1>
+        <div class="flex">
+
+        <img src="https://openweathermap.org/img/wn/10d.png" alt="" class="icon">
+        <div class="description">
+          Cloudy
+          </div>
+
+        </div>
+          <div class="humidity">
+            Humidity:60%
+            </div>
+            <div class="wind">
+              Wind Speed:6.2km/hr
+              </div>
+        </div>
+    </div>
+  </body>
+</html>
